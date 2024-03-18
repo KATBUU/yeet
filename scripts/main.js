@@ -2,10 +2,10 @@ const myImage = document.querySelector("img");
 
 myImage.onclick = () => {
   const mySrc = myImage.getAttribute("src");
-  if (mySrc === "https://storage.googleapis.com/vue-mastery.appspot.com/flamelink/media/vuemastery-graphical-link-96x56.png") {
-    myImage.setAttribute("src", "https://miro.medium.com/v2/resize:fit:679/1*2PEPQ0LxKFELp2lojVF-lw.jpeg");
+  if (mySrc === "images/1.png") {
+    myImage.setAttribute("src", "images/chess.jpg");
   } else {
-    myImage.setAttribute("src", "https://storage.googleapis.com/vue-mastery.appspot.com/flamelink/media/vuemastery-graphical-link-96x56.png");
+    myImage.setAttribute("src", "images/1.png");
   }
 };
 
